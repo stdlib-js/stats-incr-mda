@@ -43,32 +43,30 @@ where `f_i` is the forecast value, `a_i` is the actual value, `sgn(x)` is the [s
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-mda
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-incrmda = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.incrmda;
-})();
-</script>
+var incrmda = require( '@stdlib/stats-incr-mda' );
 ```
 
 #### incrmda()
@@ -119,14 +117,9 @@ m = accumulator();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var incrmda = require( '@stdlib/stats-incr-mda' );
 
 var accumulator;
 var v1;
@@ -143,11 +136,6 @@ for ( i = 0; i < 100; i++ ) {
     accumulator( v1, v2 );
 }
 console.log( accumulator() );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -234,20 +222,21 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-incr-mda/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-incr-mda/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-incr-mda/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-incr-mda/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-incr-mda/main/LICENSE
 
 [mean-directional-accuracy]: https://en.wikipedia.org/wiki/Mean_Directional_Accuracy_%28MDA%29
 
-[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum/tree/umd
+[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum
 
-[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta/tree/umd
+[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape/tree/umd
+[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape
 
-[@stdlib/stats/incr/mmda]: https://github.com/stdlib-js/stats-incr-mmda/tree/umd
+[@stdlib/stats/incr/mmda]: https://github.com/stdlib-js/stats-incr-mmda
 
 <!-- </related-links> -->
 
