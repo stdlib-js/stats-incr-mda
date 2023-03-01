@@ -150,8 +150,8 @@ console.log( accumulator() );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/incr/mape`][@stdlib/stats/incr/mape]</span><span class="delimiter">: </span><span class="description">compute the mean absolute percentage error (MAPE) incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/mmda`][@stdlib/stats/incr/mmda]</span><span class="delimiter">: </span><span class="description">compute a moving mean directional accuracy (MDA) incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/mape`][@stdlib/stats/incr/mape]</span><span class="delimiter">: </span><span class="description">compute the mean absolute percentage error (MAPE) incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/mmda`][@stdlib/stats/incr/mmda]</span><span class="delimiter">: </span><span class="description">compute a moving mean directional accuracy (MDA) incrementally.</span>
 
 </section>
 
