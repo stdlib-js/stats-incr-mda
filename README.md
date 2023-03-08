@@ -30,10 +30,14 @@ The [mean directional accuracy][mean-directional-accuracy] is defined as
 
 <!-- <equation class="equation" label="eq:mean_directional_accuracy" align="center" raw="\operatorname{MDA} = \begin{cases} 1 & \textrm{if}\ N = 1 \\\frac{1}{N} \sum_{i=1}^{N} \delta_{\operatorname{sgn}(\Delta f_{i,i-1}),\ \operatorname{sgn}(\Delta a_{i,i-1})} & \textrm{if}\ N > 1 \end{cases}" alt="Equation for the mean directional accuracy."> -->
 
-<div class="equation" align="center" data-raw-text="\operatorname{MDA} = \begin{cases} 1 & \textrm{if}\ N = 1 \\\frac{1}{N} \sum_{i=1}^{N} \delta_{\operatorname{sgn}(\Delta f_{i,i-1}),\ \operatorname{sgn}(\Delta a_{i,i-1})} & \textrm{if}\ N > 1 \end{cases}" data-equation="eq:mean_directional_accuracy">
+```math
+\operatorname{MDA} = \begin{cases} 1 & \textrm{if}\ N = 1 \\\frac{1}{N} \sum_{i=1}^{N} \delta_{\operatorname{sgn}(\Delta f_{i,i-1}),\ \operatorname{sgn}(\Delta a_{i,i-1})} & \textrm{if}\ N > 1 \end{cases}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\operatorname{MDA} = \begin{cases} 1 & \textrm{if}\ N = 1 \\\frac{1}{N} \sum_{i=1}^{N} \delta_{\operatorname{sgn}(\Delta f_{i,i-1}),\ \operatorname{sgn}(\Delta a_{i,i-1})} & \textrm{if}\ N > 1 \end{cases}" data-equation="eq:mean_directional_accuracy">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@95b364439921fe28429acff89c5ba464a5a60caf/lib/node_modules/@stdlib/stats/incr/mda/docs/img/equation_mean_directional_accuracy.svg" alt="Equation for the mean directional accuracy.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -210,7 +214,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
