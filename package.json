@@ -40,7 +40,8 @@
     "@stdlib/math-base-special-kronecker-delta": "^0.1.0",
     "@stdlib/math-base-special-signum": "^0.1.0",
     "@stdlib/stats-incr-mean": "^0.1.0",
-    "@stdlib/types": "^0.1.0"
+    "@stdlib/types": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/bench": "^0.1.0",
