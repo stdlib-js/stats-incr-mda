@@ -65,6 +65,11 @@ where `f_i` is the forecast value, `a_i` is the actual value, `sgn(x)` is the [s
 ## Usage
 
 ```javascript
+import incrmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mda/tags). For example,
+
+```javascript
 import incrmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@v0.1.0-esm/index.mjs';
 ```
 
@@ -123,7 +128,7 @@ m = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@v0.1.0-esm/index.mjs';
+import incrmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@esm/index.mjs';
 
 var accumulator;
 var v1;
