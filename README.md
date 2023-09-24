@@ -18,6 +18,17 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # incrmda
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
@@ -47,14 +58,30 @@ where `f_i` is the forecast value, `a_i` is the actual value, `sgn(x)` is the [s
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-mda
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@deno/mod.js';
+var incrmda = require( '@stdlib/stats-incr-mda' );
 ```
 
 #### incrmda()
@@ -106,8 +133,8 @@ m = accumulator();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var incrmda = require( '@stdlib/stats-incr-mda' );
 
 var accumulator;
 var v1;
@@ -154,7 +181,7 @@ console.log( accumulator() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -184,8 +211,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-incr-mda.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-incr-mda
 
-[test-image]: https://github.com/stdlib-js/stats-incr-mda/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-incr-mda/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-incr-mda/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/stats-incr-mda/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-mda/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-mda?branch=main
@@ -216,15 +243,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [mean-directional-accuracy]: https://en.wikipedia.org/wiki/Mean_Directional_Accuracy_%28MDA%29
 
-[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum/tree/deno
+[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum
 
-[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta/tree/deno
+[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape/tree/deno
+[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape
 
-[@stdlib/stats/incr/mmda]: https://github.com/stdlib-js/stats-incr-mmda/tree/deno
+[@stdlib/stats/incr/mmda]: https://github.com/stdlib-js/stats-incr-mmda
 
 <!-- </related-links> -->
 
