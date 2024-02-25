@@ -65,7 +65,7 @@ where `f_i` is the forecast value, `a_i` is the actual value, `sgn(x)` is the [s
 ## Usage
 
 ```javascript
-import incrmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@deno/mod.js';
+import incrmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@v0.2.1-deno/mod.js';
 ```
 
 #### incrmda()
@@ -118,7 +118,7 @@ m = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@deno/mod.js';
+import incrmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mda@v0.2.1-deno/mod.js';
 
 var accumulator;
 var v1;
